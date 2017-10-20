@@ -1,0 +1,15 @@
+{
+  "name": "bsg-theme",
+  "version": "0.1.0",
+  "description": "This is the Jekyll theme running in all Bootstragram's Jekyll websites.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bootstragram",
+  "license": "MIT"
+}
