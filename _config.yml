@@ -15,13 +15,14 @@ menu:
     title: Link 3
     path: '#about3'
 
-submenu:
-  item0:
-    title: Sub-Link 1
-    path: '#about1'
-  item1:
-    title: Sub-Link 2
-    path: '#about2'
-  item2:
-    title: Sub-Link 3
-    path: '#about3'
+submenus:
+  index:
+    item0:
+      title: Sub-Link 1
+      path: '#about1'
+    item1:
+      title: Sub-Link 2
+      path: '#about2'
+    item2:
+      title: Sub-Link 3
+      path: '#about3'

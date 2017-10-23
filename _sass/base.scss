@@ -5,6 +5,8 @@
 // TODO
 
 // 3.
+h1 { @extend .title; }
+h2 { @extend .subtitle; }
 
 // 4. Import the rest of Bulma
 @import '../node_modules/bulma/bulma';
