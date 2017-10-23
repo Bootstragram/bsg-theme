@@ -1,19 +1,12 @@
 ---
 layout: default
-title: Bootstragram
+title: Home
+description: My Home Description
+lang: fr
 ---
 
-# Hello
+# Title 1
 
-<nav>
-  <ul class="posts">
-    {% for post in site.posts %}
-    {% unless post.category == 'jobs' %}
-    <li>
-      <a href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
-      <small>{{ post.date | date: "%B %Y" }}</small>
-    </li>
-    {% endunless %}
-    {% endfor %}
-  </ul>
-</nav>
+## Title 2
+
+Check out the code at <i class="fa fa-github" aria-hidden="true"></i>.
