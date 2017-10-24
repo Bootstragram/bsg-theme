@@ -4,7 +4,7 @@
 @import '../node_modules/bulma/sass/utilities/initial-variables';
 
 // 2. Override Bulma's initial variables here...
-// TODO
+@import 'override_variables';
 
 // 3.
 
@@ -16,3 +16,4 @@
 @import '../node_modules/bigfoot/dist/bigfoot-default';
 
 @import 'bootstragram';
+@import 'override';
