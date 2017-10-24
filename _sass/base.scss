@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 // 1. Import Bulma's initial variables
 @import '../node_modules/bulma/sass/utilities/initial-variables';
 
@@ -5,8 +7,6 @@
 // TODO
 
 // 3.
-h1 { @extend .title; }
-h2 { @extend .subtitle; }
 
 // 4. Import the rest of Bulma
 @import '../node_modules/bulma/bulma';
@@ -14,3 +14,5 @@ h2 { @extend .subtitle; }
 // 5. Import Font-Awesome & BigFoot
 @import '../node_modules/font-awesome/scss/font-awesome';
 @import '../node_modules/bigfoot/dist/bigfoot-default';
+
+@import 'bootstragram';

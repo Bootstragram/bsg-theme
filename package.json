@@ -7,7 +7,8 @@
   "devDependencies": {
     "bigfoot": "git+https://github.com/lemonmade/bigfoot.git",
     "bulma": "^0.6.0",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "jquery": "^2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

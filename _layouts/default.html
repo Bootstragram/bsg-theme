@@ -6,8 +6,16 @@
     {% include navbar_secondary.html %}
     <section class="section">
       <div class="container">
-        {{ content }}
+        <div class="content">
+          {{ content }}
+        </div>
       </div>
     </section>
+
+    <script src="{{ '/assets/js/jquery/jquery.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/js/bigfoot/bigfoot.min.js' | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      $.bigfoot();
+    </script>
   </body>
 </html>
