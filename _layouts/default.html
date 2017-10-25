@@ -18,7 +18,7 @@
       $.bigfoot();
     </script>
     {% for extra_js in page.extra_js %}
-    <script src="{{ "/assets/js/extra_js.js" | replace: 'extra_js', extra_js | prepend: site.baseurl }}">
+    <script src="{{ "/assets/js/extra_js.js" | replace: 'extra_js', extra_js | prepend: site.baseurl }}"></script>
     {% endfor %}
   </body>
 </html>
