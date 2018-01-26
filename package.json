@@ -4,6 +4,7 @@
   "description": "This is the Jekyll theme running in all Bootstragram's Jekyll websites.",
   "main": "index.js",
   "dependencies": {},
+  "//": "⚠︎ Bigfoot is not compatible with jQuery 3+ to this day.",
   "devDependencies": {
     "bigfoot": "git+https://github.com/lemonmade/bigfoot.git",
     "bulma": "^0.6.0",
