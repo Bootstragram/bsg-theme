@@ -7,7 +7,7 @@
   "//": "⚠︎ Bigfoot is not compatible with jQuery 3+ to this day.",
   "devDependencies": {
     "bigfoot": "git+https://github.com/lemonmade/bigfoot.git",
-    "bulma": "^0.6.0",
+    "bulma": "^0.6.2",
     "font-awesome": "^4.7.0",
     "jquery": "^2.0"
   },
