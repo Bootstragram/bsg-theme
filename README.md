@@ -2,6 +2,18 @@
 
 This is the theme used by Bootstragram Jekyll instances.
 
+## Features
+
+* Support for multiple environments
+* Google Analytics for production-only
+* Support for multi-language/localized content
+* Two levels of configurable navigation
+* Open Graph metadata
+* Clean layout based on Bulma
+* Footnote via bigfoot
+* FontAwesome
+* Multi-author
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
