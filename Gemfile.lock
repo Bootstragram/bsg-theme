@@ -55,7 +55,6 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
     rainbow (3.1.1)
-    rake (10.5.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -86,15 +85,14 @@ GEM
     unicode-display_width (2.4.2)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-21
 
 DEPENDENCIES
   bsg-theme!
-  bundler (~> 1.12)
+  bundler (>= 2.2.33)
   kramdown-parser-gfm (~> 1.1)
-  rake (~> 10.0)
   rubocop (~> 1.50)
   rubocop-rake (~> 0.6)
 
 BUNDLED WITH
-   1.17.3
+   2.4.12
