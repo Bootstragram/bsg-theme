@@ -7,9 +7,9 @@
   "//": "⚠︎ Bigfoot is not compatible with jQuery 3+ to this day.",
   "devDependencies": {
     "bigfoot": "git+https://github.com/lemonmade/bigfoot.git",
-    "bulma": "^0.6.2",
+    "bulma": "^0.9.4",
     "font-awesome": "^4.7.0",
-    "jquery": "^2.0"
+    "jquery": "^3.6.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
